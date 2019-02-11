@@ -165,3 +165,15 @@ header .nav-link:hover{/*Cambia color al pasar mause*/
     margin: 0 2px; 
 }
 /*----------------/FOOTER------------------*/
+/*----------------SLIDER------------------*/
+.background-color-slider{
+  background-color: #53354a;
+  color: #fff;
+}
+.text-slider{
+  font-family: 'Raleway', sans-serif;
+  
+  color: #fff;
+  margin-top: 30px;
+}
+/*----------------/SLIDER------------------*/
