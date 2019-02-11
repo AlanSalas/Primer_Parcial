@@ -117,7 +117,7 @@ header .nav-link:hover{/*Cambia color al pasar mause*/
   	border-color: #e84545;
   	color: #fff; 
 }
-<<<<<<< HEAD
+
 /*----------------SECCION TEAM------------------*/
 
 
@@ -155,7 +155,7 @@ header .nav-link:hover{/*Cambia color al pasar mause*/
 .caja{ width: 410px;height: 400px; }
 .text .titulo{ font-weight: 700; }
 /*----------------SECCION IMGS HIPSTERS	------------------*/
-=======
+
 /*----------------/SECCION TEAM------------------*/
 /*----------------FOOTER------------------*/
 .footer {
@@ -216,4 +216,4 @@ header .nav-link:hover{/*Cambia color al pasar mause*/
   margin-top: 30px;
 }
 /*----------------/SLIDER------------------*/
->>>>>>> f6aaa65400425454301f8e1739c9d0c402518b69
+
