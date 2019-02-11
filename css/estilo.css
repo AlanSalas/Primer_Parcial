@@ -1,0 +1,120 @@
+/*clases -> class -> .container-fluid
+ID -> id -> #principal exclusivo por documento
+Etiquetas -> body, nav
+Sintaxis
+-Selector{
+	atributo: valor;
+	atributo2: "valorstring";
+	atributo3: #ddd;
+}*/
+
+body{
+	font-family: 'Raleway';
+}
+/*----------------HEADER------------------*/
+header{
+	background: url("../img/background-header.jpg") no-repeat;
+	height: 600px; /*Altura*/
+	background-size: cover; /*Mantener relacion de imagen*/
+}
+#logotipo{
+	margin-top: 40px;
+}
+header .nav{/**/
+	justify-content: flex-end;
+}
+header .nav-link{
+	font-size: 13px;
+	padding-top: 40px; /*Relleno de arriba*/
+	color: white;
+}
+header .nav-link:hover{/*Cambia color al pasar mause*/
+	background: #fff;
+	color: #31344e;
+}
+#textuno{
+	font-family: 'Raleway';
+	font-weight: 700;
+	color: white;
+	margin-bottom: 0px;
+	margin-top: 130px
+}
+#textdos{
+	font-family: 'Raleway';
+	font-weight: 700;
+	color: white;
+	margin-bottom: 20px;	
+}
+#parrafo{
+	font-family: 'Raleway';
+	color: white;
+	margin-bottom: 60px;
+}
+#boton_header{
+	text-decoration: none;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+    font-weight:15pt;
+    font-size:8pt;
+    color: white;
+    background-color:#e84545;
+    border-radius: 2px;
+    width: 150px;
+    height: 45px;
+    margin-left: 675px;
+    margin-right: 0px;
+}
+#boton_header:hover{
+	background: white;
+	color: #e84545;
+}
+/*---------------- FIN HEADER------------------*/
+/*----------------SECCION TEAM------------------*/
+.seccion-team{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.persona {
+  	max-width: 270px;
+}
+.persona-content {
+  	margin-top: 20px; 
+}
+.persona h4 {
+  	font-weight: 400;
+}
+.persona h5 {
+  	color: #e84545;
+  	font-size: 13px;
+  	font-weight: 400;
+  	margin-bottom: 20px;
+}
+.social-icons{
+	padding-left: 0px;
+  	margin-top: 30px;
+  	list-style-type:none
+}
+.social-icons li{
+  	float: left; 
+}
+.social-icons a{
+  	border: 1px solid #e8ecee;
+  	-moz-border-radius: 2px;
+  	-webkit-border-radius: 2px;
+  	border-radius: 2px;
+  	color: #c6cacc;
+  	display: block;
+  	font-size: 18px;
+  	height: 40px;
+  	line-height: 40px;
+  	margin-right: 5px;
+  	text-align: center;
+  	width: 40px; 
+}
+.social-icons a:hover{
+  	background-color: #e84545;
+  	border-color: #e84545;
+  	color: #fff; 
+}
+/*----------------SECCION TEAM------------------*/
