@@ -62,7 +62,7 @@ header .nav-link:hover{/*Cambia color al pasar mause*/
     border-radius: 2px;
     width: 150px;
     height: 45px;
-    margin-left: 675px;
+    margin-left: 580px;
     margin-right: 0px;
 }
 #boton_header:hover{
@@ -90,15 +90,15 @@ header .nav-link:hover{/*Cambia color al pasar mause*/
   	font-weight: 400;
   	margin-bottom: 20px;
 }
-.social-icons{
+.social-icons, .footer .footer-share{
 	padding-left: 0px;
   	margin-top: 30px;
   	list-style-type:none
 }
-.social-icons li{
+.social-icons li, .footer .footer-share li{
   	float: left; 
 }
-.social-icons a{
+.social-icons a, .footer .footer-share a{
   	border: 1px solid #e8ecee;
   	-moz-border-radius: 2px;
   	-webkit-border-radius: 2px;
@@ -112,9 +112,108 @@ header .nav-link:hover{/*Cambia color al pasar mause*/
   	text-align: center;
   	width: 40px; 
 }
-.social-icons a:hover{
+.social-icons a:hover, .footer .footer-share a:hover{
   	background-color: #e84545;
   	border-color: #e84545;
   	color: #fff; 
 }
+<<<<<<< HEAD
 /*----------------SECCION TEAM------------------*/
+
+
+/*----------------SECCION IMGS HIPSTERS	------------------*/
+.seccion-imgs{padding: 0;}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #e85351;
+}
+
+.col-sm-3:hover .overlay {
+  opacity: .90;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.caja{ width: 410px;height: 400px; }
+.text .titulo{ font-weight: 700; }
+/*----------------SECCION IMGS HIPSTERS	------------------*/
+=======
+/*----------------/SECCION TEAM------------------*/
+/*----------------FOOTER------------------*/
+.footer {
+  text-align: center; 
+}
+.footer-top {
+    background-color: #3a3e64;
+    padding-top: 50px; 
+}
+.footer-bottom {
+    background-color: #313454;
+    padding: 20px 0; 
+}
+.footer .footer-col {
+    margin-bottom: 80px; 
+}
+.footer h5 {
+    color: #fff; 
+}
+.footer h5 {
+    margin-bottom: 20px; 
+}
+.footer p {
+    color: rgba(255, 255, 255, 0.5); 
+}
+.footer a {
+    color: #fff; 
+}
+.footer a:hover {
+    color: #e84545; 
+}
+.footer .footer-share {
+    margin-top: 0; 
+}
+.footer .footer-share li {
+    display: inline-block;
+    float: none; 
+}
+.footer .footer-share a {
+    border-width: 2px;
+    color: #fff; 
+}
+.footer .fa-heart {
+    color: #e84545;
+    font-size: 11px;
+    margin: 0 2px; 
+}
+/*----------------/FOOTER------------------*/
+/*----------------SLIDER------------------*/
+.background-color-slider{
+  background-color: #53354a;
+  color: #fff;
+}
+.text-slider{
+  font-family: 'Raleway', sans-serif;
+  
+  color: #fff;
+  margin-top: 30px;
+}
+/*----------------/SLIDER------------------*/
+>>>>>>> f6aaa65400425454301f8e1739c9d0c402518b69
