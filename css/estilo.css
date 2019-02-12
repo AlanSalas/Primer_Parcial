@@ -8,67 +8,62 @@ Sintaxis
 	atributo3: #ddd;
 }*/
 
-body{
-	font-family: 'Raleway';
-}
-/*----------------HEADER------------------*/
-header{
-	background: url("../img/background-header.jpg") no-repeat;
-	height: 600px; /*Altura*/
-	background-size: cover; /*Mantener relacion de imagen*/
-}
-#logotipo{
-	margin-top: 40px;
-}
-header .nav{/**/
-	justify-content: flex-end;
-}
-header .nav-link{
-	font-size: 13px;
-	padding-top: 40px; /*Relleno de arriba*/
-	color: white;
-}
-header .nav-link:hover{/*Cambia color al pasar mause*/
-	background: #fff;
-	color: #31344e;
-}
-#textuno{
-	font-family: 'Raleway';
-	font-weight: 700;
-	color: white;
-	margin-bottom: 0px;
-	margin-top: 130px
-}
-#textdos{
-	font-family: 'Raleway';
-	font-weight: 700;
-	color: white;
-	margin-bottom: 20px;	
-}
-#parrafo{
-	font-family: 'Raleway';
-	color: white;
-	margin-bottom: 60px;
-}
-#boton_header{
-	text-decoration: none;
-	padding-top: 15px;
-	padding-right: 15px;
-	padding-left: 15px;
-    font-weight:15pt;
-    font-size:8pt;
-    color: white;
-    background-color:#e84545;
-    border-radius: 2px;
-    width: 150px;
-    height: 45px;
-    margin-left: 580px;
-    margin-right: 0px;
-}
-#boton_header:hover{
-	background: white;
-	color: #e84545;
-}
+  body{
+    font-family: 'Raleway', sans-serif; 
+
+  }
+  header{
+    background: url("../img/background-header.jpg");
+    
+    height: 800px;
+    background-size: cover;}
+
+  #logotipo{margin-top: 35px}
+
+  header .nav{
+    justify-content: flex-end;
+  }
+
+  header .nav-link{
+    font-size: 14px;
+    color: #ffffff;
+    padding-top: 40px;
+  }
+  header .nav-link:hover{
+    background: #ffffff;
+    color:#3134ee;
+  }
+  .h1-header{
+    text-align: center;
+    margin-top: 158px;
+    color: #ffffff;
+      font-weight: 700;
+      font-size: 75px;
+  }
+  .p-header{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 42px;
+    font-weight: 700px;
+    font-size: 26px;
+    
+  }
+  header .btn:hover{
+    background: #ffffff;
+    color: #3134ee;
+  }
+
+  header .btn {
+    text-align: center;
+    margin-top: 78px;
+    width: 201px; 
+    height: 46px; 
+    background-color: #e84545;
+    color: #fff;
+    font-size: : : 8px;
+    padding-top: 9px;
+  
+  }
 /*---------------- FIN HEADER------------------*/
 /*----------------SECCION TEAM------------------*/
 .seccion-team{
@@ -204,6 +199,25 @@ header .nav-link:hover{/*Cambia color al pasar mause*/
     margin: 0 2px; 
 }
 /*----------------/FOOTER------------------*/
+/*----------------DOWNLOAD-----------------*/
+  .download h3 {
+  text-align: center;
+  margin-top: 45px; }
+.download p {
+  text-align: center;
+  color: #2d3033;
+  font-weight: 600;
+  text-transform: uppercase; }
+.download a {
+  padding: 15px 40px;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  background: #e84545;
+  color: #fff;
+    margin-top: 40px;
+    margin-bottom: 40px }
+/*----------------/DOWNLOAD-----------------*/
 /*----------------SLIDER------------------*/
 .background-color-slider{
   background-color: #53354a;
